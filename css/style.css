@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+
+
+.banner { width:100%; max-width:1366px; min-width:1200px; background:url(../images/bg2.jpg) no-repeat top center; height:724px; margin: 0 auto;}
+.banner .menu { margin:0px 25px; padding:10px 0; line-height:50px; color:#fff;}
+.banner .menu li { float:left;}
+
+.banner .menu li.logo img { height:30px; margin-right:8px;}
+.banner .menu li.logo { font-size:16px; font-weight:bold;}
+
+.banner .menu li.m { margin-left:100px;}
+
+.banner .menu li.m a { color:#afd2ff; margin:0 20px; transition:all 0.5s; padding:10px 5px;}
+.banner .menu li.m a:hover { color:#fff; transition:all 0.5s;}
+.banner .menu li.m a.here { color:#fff; border-bottom:2px solid #FFFFFF;}
+
+.banner .menu li.fr { float:right;}
+.banner .menu li.fr img { margin-right:5px;}
+
+.banner ul.login { text-align:center; top:480px; position:absolute; width:100%;}
+.banner ul.login a { color:#1167f4; font-size:30px; background:#fff url(../images/btn.png) no-repeat 180px center; padding:10px 100px 10px 50px; border-radius:3px;  transition:all 0.5s;}
+.banner ul.login a:hover { background-color:#fff; transition:all 0.5s; border:2px solid #87ceff;}
+
+
+.step {  width:100%; text-align:center; clear:both; overflow: hidden;}
+.step ul { margin:90px auto; width:1200px;}
+.step ul .t { font-size:28px; margin-bottom:65px; position:relative; line-height:30px;}
+.step ul .t::after {position:absolute; height:2px; background-color:#0f72f4; content:""; bottom:-15px; width:70px; left:50%; margin-left:-35px;}
+
+.step1 dl { display:inline-block; margin:0 40px; width:220px; text-align:center;}
+.step1 dl img { margin-bottom:30px;} 
+.step1 dl dt { color:#032b44; font-size:20px; margin-bottom:15px;}
+.step1 dl dd { height:40px; display:block;}
+
+.step2  { background:#faf8f5 url(../images/step2Bg.png) no-repeat center bottom;}
+.step2 ul .t::after { background-color:#ff4946;}
+.step2 ul a { width:285px; height:160px; position:relative; float:left; margin:7px;}
+.step2 ul a::after {position:absolute; width:285px; height:160px; background:rgba(15, 145, 245, .7); content:""; left:0; top:0; transition:all 0.5s;}
+.step2 ul a:hover::after { transition:all 0.5s; height:0;}
+.step2 ul a span { position:absolute; line-height:160px; text-align:center; width:100%; color:#fff; font-size:22px; z-index:999;}
+
+
+.step3  { background:#fff url(../images/step3Bg.png) no-repeat center bottom;}
+.step3 ul .t::after { background-color:#1cbb57;}
+.step3 dl { width:325px; height:300px; background-color:#fff;box-shadow: 0 0 5px rgba(235, 240, 255, .8); text-align:left; display:inline-block; margin:0 18px; cursor:pointer; float: left; vertical-align: middle; overflow:hidden; margin-top:55px; transition:all 1s;}
+.step3 dl img { width:325px; margin-bottom:15px; transition:all 1s;}
+.step3 dl dt { margin:0 10px; color:#032b44; font-size:17px; line-height:32px; transition:all 1s;}
+.step3 dl dd { margin:0 10px; line-height:22px; transition:all 1s;}
+
+.step3 dl.here { width:440px; height:410px; margin-top:0; transition:all 1s;}
+.step3 dl.here img { width:440px; transition:all 1s;}
+.step3 dl.here dt { font-size:20px; line-height:42px; transition:all 1s;}
+.step3 dl.here dd { font-size:16px; transition:all 1s;}
+
+.step4 {  width:100%; text-align:center; clear:both; overflow: hidden; background:#fff url(../images/step4Bg.png) no-repeat center center; height:200px;}
+.step4 h1 { width:100%; text-align:center; color:#fff; font-size:30px; line-height:130px; font-weight:normal;}
+.step4 a {color:#1167f4; font-size:20px; background:#fff; padding:10px 60px; border-radius:3px;  transition:all 0.5s;}
+.step4 a:hover { background-color:#fff; transition:all 0.5s; border:2px solid #87ceff;}
+
+.footer {width:100%; text-align:center; line-height:50px;}
+
+
+
+.loginBg { width:100%; height:100%; background:#037efd url(../images/loginBg.jpg) no-repeat center center;}
+.loginBg2 { width:1110px; height:610px; background:url(../images/loginBg2.png) no-repeat center center; position: absolute; top:50%; margin-top:-305px; left:50%; margin-left:-555px;}
+
+.loginBox { width:320px; height:380px; position:absolute; right:150px; top:100px;}
+.loginBox li { margin-bottom:30px; position:relative;}
+.loginBox li.t { font-size:18px; text-align:center; margin-bottom:50px;}
+
+.loginBox li input { border-radius:5px; width:265px; border:none; padding:0 10px 0 45px; line-height:38px; height:38px; margin-bottom:3px; background:#f3f8fe url(../images/icons.png) no-repeat;}
+.loginBox li input.submit { background-color:#0f72f4; color:#fff; font-size:18px; width:100%; margin-top:5px; background-image:none; cursor:pointer;}
+.loginBox li span { width:100%; text-align:center; display:block;}
+.loginBox li input.i1 { background-position: 12px 6px;}
+.loginBox li input.i2 { background-position: 12px -95px;}
+.loginBox li input.i3 { background-position: 12px -195px;}
+
+.loginBox .code { position:absolute; right:5px; top:5px; }
+.loginBox .code img { height:30px; width:75px;}
+
+.error { color:#ff4948; font-size:12px; padding-left:32px; background:url(../images/icons.png) no-repeat 15px -296px; line-height:24px;}

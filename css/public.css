@@ -1,0 +1,97 @@
+﻿@charset "utf-8";
+*{margin: 0; padding: 0;}
+body, html { height:100%;}
+body{word-wrap:keep-all;margin:0 auto;padding:0; min-width:1200px; background-color:#fff; color:#6f6f6f;-webkit-font-smoothing: antialiased; }
+a:focus{outline:none;}
+img{border: 0; vertical-align:middle;}
+form{ margin:0; padding:0;}
+select,input,body,th,td{color: #666;font-family:Arial,"微软雅黑","宋体","黑体",sans-serif; font-size:14px;line-height:20px;}
+h1{ font-size:16px;}
+h2{ font-size:14px;}
+h3{ font-size:12px;}
+h4{ font-size:12px; font-weight:normal;}
+li{ list-style-type:none;}
+a{ cursor:pointer;}
+a:link,
+a:visited {color: #6f6f6f;text-decoration:none;}
+a:hover,
+a:active {color: #000;text-decoration:none;}
+.clear {clear:both; height:0; overflow:hidden; display:block; padding:0; margin:0;}
+.clearfix,.main,.left,.right,dl,dt,dd,ul,li{*zoom:1;}
+.clearfix:after,.clearfix:after,.main:after,.left:after,.right:after,dl:after,dt:after,dd:after,ul:after, li:after{clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+.s{ color:#999; padding:0 0 0 5px;}
+.yh,
+.yh td,
+.yh th{ font-family:"微软雅黑","黑体"}
+.ads{ padding:5px 0 0 0;}
+.size12{ font-size:12px;}
+.mr5 { margin-right:5px !important;}
+.ml5 { margin-left:5px !important;}
+.mt5 { margin-top:5px;}
+.mt15 { margin-top:15px;}
+.mt25 { margin-top:25px;}
+.mt30 { margin-top:30px !important;}
+.mbb15 { margin-bottom:-15px !important;}
+.fl { float:left;}
+.fr { float:right;}
+.tl { text-align:left !important;}
+.tr { text-align:right !important;}
+.tc { text-align:center !important;}
+
+.black,
+a.black,
+.black a:link,
+.black a:visited {color: #000;}
+.black a:hover,
+.black a:active {color: #069;}
+
+a.red,
+.red a:link,
+.red a:visited {color: #C00 !important;}
+.red a:hover,
+.red a:active {color: #069;}
+
+.gray,
+a.gray,
+.gray a:link,
+.gray a:visited {color: #999;}
+.gray a:hover,
+.gray a:active {color: #C00;}
+
+.gray2,
+a.gray2,
+.gray2 a:link,
+.gray2 a:visited {color: #666;}
+.gray2 a:hover,
+.gray2 a:active {color: #C00;}
+
+.wi,
+a.wi,
+.wi a:link,
+.wi a:visited {color: #fff;}
+.wi a:hover,
+.wi a:active {color: #000;}
+
+a.blue,
+.blue a,
+.blue a:link,
+.blue a:visited {color: #069;}
+.blue a:hover,
+.blue a:active {color: #F00;}
+
+.orange { color:#fe6700;}
+.red { color:#ea0606;}
+.green { color:#8bcf5b;}
+.price { font-family:Arial,"微软雅黑","黑体","宋体"; font-size:16px; color:#ea0606; font-weight:bold;}
+
+
+select,input { vertical-align:middle;}
+
+
+
+
+
+
+
+
+
